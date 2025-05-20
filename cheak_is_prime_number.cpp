@@ -13,5 +13,7 @@ bool isPrime(int n){
 }
 
 int main(){
-    cout<< boolalpha<< isPrime(-1);
+    int n;
+    cin >> n;
+    cout<< boolalpha<< isPrime(n);
 }
